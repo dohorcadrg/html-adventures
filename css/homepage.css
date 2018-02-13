@@ -1,0 +1,195 @@
+/****General Code****/
+
+div{
+	margin:auto;
+}
+
+h1{
+	font-size: 1.5em;
+}
+
+body{
+	font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+	background-color: rgb(195, 214, 155);
+}
+
+/***The entire page***/
+
+#Entire-Page{
+	width: 100%;
+	position: absolute;
+	left: 0px;
+}
+
+/* Background for top header*/
+
+
+#top-header{
+	z-index: 1;
+	height: 75px;
+	background:#0d0d0d;
+	/* #1a1a1a*/
+	color: rgb(0, 230, 104);
+	width:100%;
+	text-transform: uppercase;
+	position: fixed;
+	top:0px;
+	left: 0px;
+}
+
+/******Logo in top right header- HTML Adventures*******/
+#logo{
+	display: inline-block;
+	float: left;
+	font-size: 1.9em; 
+	margin: 1.5% 0px 0px 3%;
+}
+
+
+/***NAVIGATION GENERAL***/
+nav{
+	display: inline-block;
+	float: right;
+	margin: 0px 3% 0px 0px;
+}
+
+nav ul li{
+	display:inline-block;
+	padding: 10px;
+	border-left: 1px solid #006600;
+}
+
+nav ul li a{
+	color: rgb(0, 230, 104);
+	text-decoration: none;
+}
+
+nav ul li span{
+	display:none;
+}
+
+/***NAVIGATION HOVER***/
+nav ul li:hover{
+	background-color:#009900;
+	color:black;
+}
+
+nav ul li:hover span{
+	display:block;
+	position:absolute;
+	background-color:#009900;
+}
+
+nav ul li:hover span a{
+	display:block;
+	padding:10px;
+	text-decoration: none;
+	color: black;
+}
+
+nav ul li span a:hover{
+	background-color:#00e600;
+}
+
+
+/*******Slogan- The game starts here********/
+
+.slogan{
+	font-size: 5em; 
+	display: inline-block;
+	width: 500px; 
+	text-shadow:2px 2px 1px rgba(38, 38, 38, .5); 
+	text-transform: capitalize; 
+	font-weight: bold; 
+	color:rgb(0, 176, 80); 
+	font-family:'Aharoni', "Arial Black", Gadget, sans-serif;
+	letter-spacing: .05em;
+	line-height: 1.2em; 
+	vertical-align: 75px;
+	margin-top: 30px;
+
+}
+
+
+/****Slogan Icon****/
+.slogan-icon{
+	background-color: rgb(0, 176, 80);
+	border-radius: 500px;
+	display: inline-block;
+	margin: 2px;
+}
+
+.slogan-icon img{
+	height: 350px;
+	display: inline;
+}
+
+/*****Box for each individial aside section*****/
+.box{
+	display: inline-block;
+	font-size: 1em;
+	border-right: 1px solid black;
+	padding:5%;
+	width: 20%;
+}
+#firstbox{
+	border-left: 1px solid black;
+}
+
+/***Icon in the aside****/
+.circle-icon{
+	background:rgb(325, 241, 222);
+	border-radius:500px;
+	padding: 5%;
+	width: 75px;
+}
+
+.circle-icon img{
+	width:75px;
+}
+
+.circle-icon:hover{
+	background:white;
+	padding: 6%;
+}
+
+.circle-icon:active{
+	background:rgb(325, 241, 222);
+}
+
+/***ASIDE****/
+#aside{
+	background: rgb(215, 228, 189);
+	text-align: center;
+}
+
+/** The light lime green container that holds the logo and computer background picture **/
+#computer-con{
+	background: rgb(195, 214, 155);
+	padding:5% 5% 0% 5%;
+	text-align: center;
+}
+
+/****Footer makes it black****/
+#footer-container{
+	background-color:#0d0d0d;
+	padding:2%;
+	color:white;
+	text-align: right;
+}
+
+/***********Smaller resolution************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+

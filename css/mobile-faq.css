@@ -1,0 +1,36 @@
+.faqlist{
+	list-style-type: none; 
+}
+.faqlist a{
+	text-decoration: none;
+	color: black;	
+}
+.faqlist a:hover{
+	text-decoration:underline; 
+}
+.faqlist li{
+padding-bottom: 10px;
+}
+
+h2{
+	text-align: justify;
+	margin-bottom: 2%;
+}
+
+section{
+	border-left: 1px solid black;
+	border-right:1px solid black;
+	margin-bottom: 5%;
+	padding: 5px;
+}
+article{
+	border-left: none;
+	border-right: none;
+}
+
+.questionbox{
+	text-align: justify;
+	padding: 1%;
+	padding-right: 30px;
+	background-color: white;
+}

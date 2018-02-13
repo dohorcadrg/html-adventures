@@ -1,0 +1,39 @@
+/*******Specific CSS for the FAQ page***********/
+/***FAQ link list box*****/
+.faqlist{
+	list-style-type: none; 
+}
+
+.faqlist a{
+	text-decoration: none;
+	color: black;					
+}
+
+.faqlist a:hover{
+	text-decoration:underline; 
+}
+/*****Question Headings*****/
+h2{
+	text-align: justify;
+	margin-bottom: 2%;
+}
+
+/****The lines around each question answer*******/
+section{
+	border-left: 1px solid black;
+	border-right:1px solid black;
+	margin-bottom: 5%;
+}
+article{
+	border-left: none;
+	border-right: none;
+}
+
+/*****The box with the FAQ questions- gives it two ********/
+.questionbox{
+	text-align: justify;		
+	column-count: 2; 
+	column-rule: 2px solid black;
+	padding: 1%;
+	background-color: white;
+}

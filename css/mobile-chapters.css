@@ -1,0 +1,20 @@
+/*****Box for each individial aside section*****/
+
+.box{
+	display: inline-block;
+	font-size: 1em;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	padding:5%;
+	width: 75%;
+	margin-bottom: 5%;
+}
+
+
+#firstbox{
+	border-left: 1px solid black;
+}
+
+h1{
+    text-align: center;
+}

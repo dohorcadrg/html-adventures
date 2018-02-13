@@ -1,0 +1,14 @@
+	article{
+		width: 90%;
+		margin: auto;
+		padding: 5%;
+	}
+	#authorimg{
+		width:50%; 
+		float: right;
+		margin-left: 2%;
+	}
+	.intro{
+		text-align: justify;
+		margin: auto;
+	}
