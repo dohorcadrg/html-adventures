@@ -1,2 +1,3 @@
 # Html Adventures
-Website project for my webdesign class
+A website project for my webdesign class
+https://dohorcadrg.github.io/html-adventures/
